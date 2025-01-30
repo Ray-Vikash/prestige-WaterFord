@@ -1,0 +1,276 @@
+.carouselslider {
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.carousel {
+  width: 65%;
+}
+.sidebar {
+  width: 30%;
+}
+.carouselContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.column {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #f1f1f1;
+
+  padding: 5px;
+}
+
+.google-map {
+  margin-top: 2%;
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  margin-top: 45px;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border: 4px solid #f1f1f1;
+  padding: 5px;
+  margin-bottom: .8rem;
+}
+.gallery {
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+.galleryImg {
+  width: 30%;
+  height: 200px;
+  object-fit: cover;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #f1f1f1;
+}
+.sidebar {
+  margin: 0 1%;
+  padding: 1%;
+  border: 2px solid #f1f1f1;
+}
+.brochure {
+  width: 65%;
+}
+.brochurContainer {
+  width: 100%;
+}
+.brochurLink {
+  width: 100%;
+  margin: 0 1%;
+  padding: 2%;
+}
+.inputElement {
+  border: none;
+  outline: none;
+}
+
+.inputElement:focus {
+  outline: none;
+  color: blue;
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  line-height: 1.6;
+}
+
+
+.request-callback-form-detail {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.request-callback-form-detail:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #495057;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.form-check-label {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+
+@media (max-width: 768px) {
+  .request-callback-form-detail {
+    padding: 20px;
+    margin: 30px;
+  }
+  .brochure{
+    width: 50%;
+    padding: 0%;
+    margin: 0%;
+  }
+.project-price-and-contact-item{
+  margin: 1px;
+}
+  h5 {
+    font-size: 20px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+  .gallery {
+    margin-top: 12%;
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 576px) {
+  .request-callback-form-detail {
+    padding: 15px;
+    margin: 20px;
+  }
+.project-configurations {
+  font-size: 10px;
+  margin: 0 ;
+  padding:0 ;
+}
+.projetct_attributes{
+  display: flex;
+  flex-direction: column;
+}
+  h5 {
+    font-size: 18px;
+  }
+
+  .form-control {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+  .gallery {
+    margin-top: 12%;
+    margin-bottom: 4%;
+  }
+}
+
+  
+  
+  @media (max-width: 768px) {
+    .carouselslider {
+      flex-direction: column; 
+     
+    }
+  
+    .carousel {
+      width: 100%;
+      margin-bottom: 15px; 
+    }
+  
+    .sidebar {
+      width: 100%;
+      margin-bottom: 15px; 
+    }
+    .request-callback-form-detail {
+      padding: 20px;
+      margin: 20px auto; 
+      max-width: 100%; 
+    }
+  
+
+    .form-control {
+      width: 100%; 
+    }
+  
+   
+    .btn {
+      font-size: 14px;
+      width: 100%; }
+  }

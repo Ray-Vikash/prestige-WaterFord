@@ -1,0 +1,83 @@
+#logo {
+  position: absolute;
+  background-color: #fff;
+  margin-left: 80px;
+  left: 0;
+  z-index: 100;
+  margin-top: 90px;
+  max-width: 130px;
+  max-height: 150px;
+  transition: all 0.3s linear;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#logoImg {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#navLinks {
+  margin-left: 15px;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  
+  .navBar-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+  }
+  #logo {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 60px;
+  }
+
+  #navLinks {
+    margin-left: 0;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .navBar-container {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 10px;
+    color: white;
+  }
+  #logo {
+    margin-left: 20px;
+    margin-top: 60px;
+    width: 40px;
+  }
+
+  #navLinks {
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 0.8em;
+  }
+}
